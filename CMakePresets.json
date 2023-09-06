@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "vcpkg",
+            "generator": "Visual Studio 16 2019",
+            "toolchainFile": "./Dependencies/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        }
+    ]
+}
