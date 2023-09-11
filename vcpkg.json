@@ -1,19 +1,12 @@
 {
-    "name": "openusdplayground",
-    "version": "1.0.0",
-    "dependencies": [
-      {
-        "name":"usd",
-        "version>=": "23.2"
-      },
-      {
-        "name": "tbb",
-        "version>=": "2021.10.0#1"
-      }
-    ],
-    "builtin-baseline": "8413fd7fc2a361489b160f91a5ec1c01dcee3ecf",
-    "overrides": [
-        { "name": "tbb", "version-string": "2020_U3" },
-        { "name": "usd", "version-string": "23.2" }
-    ]
+  "name": "openusdplayground",
+  "version": "1.0.0",
+  "dependencies": [
+    "usd",
+    "tbb"
+  ],
+  "builtin-baseline": "2b2852767f67c6fa6898b57beb1b2b5bf6af1462",
+  "overrides": [
+      { "name": "tbb", "version-string": "2020_U3" }
+  ]
 }
